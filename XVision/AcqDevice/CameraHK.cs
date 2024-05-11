@@ -18,7 +18,7 @@ namespace AcqDevice
 
                 ;
             }
-        }}
+        }
 
         public override float ExposureMax => throw new NotImplementedException();
 
@@ -26,10 +26,10 @@ namespace AcqDevice
 
         public override float Gain { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public override float Heartbeat { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string NameOrIP { get ; set ; }
+        public override string NameOrIP { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public override int CloseDevice()
-        {            
+        {
             throw new NotImplementedException();
         }
 
@@ -57,5 +57,5 @@ namespace AcqDevice
         {
             throw new NotImplementedException();
         }
-    }
+    }  
 }
